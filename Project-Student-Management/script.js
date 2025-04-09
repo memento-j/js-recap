@@ -35,7 +35,7 @@ function filterByGrade(minGrade) {
 
 //map student data into formatted list
 function formatStudentsList() {
-    return students.map(student => `${student.name} - Grade: ${student.grade}`)
+    return students.map(student => `${student.name} - Grade: ${student.grade}`);
 }
 
 addStudent("James", 92);
@@ -44,4 +44,3 @@ addStudent("Dylan", 71);
 addStudent("Ian", 64);
 console.log(formatStudentsList());
 console.log(filterByGrade(75));
-
