@@ -24,7 +24,7 @@ console.log(multiply(5,6))
 
 //Function Hoisting
 //function declaration vs expressions
-//function declarations are hoisted and caan be called before deefinition
+//function declarations are hoisted and can be called before definition
 //bad practice!!!!!!!
 //anonymous functions and arrow functions are not hoisted
 
