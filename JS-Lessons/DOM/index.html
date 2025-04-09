@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation Example</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-heading">Welcome to JS</h1>
+    <p class="description">this is paragraph1</p>
+    <p class="description">this is paragraph2</p>
+    <p class="description">this is paragraph3</p>
+    <p class="description2">this is paragraph4</p>
+    <!-- Looks for changeText() function from the javascript file -->
+    <button onclick="changeText()">Click me!</button>
+    <!--Script has to be beneath the elements being selected when selecting elements 
+    or an error will throw since the html content is not setup yet
+    (its like trying to access a variable that hasnt been defined yet)-->
+    <script src="./dom-manipulation.js"></script>
+</body>
+</html>
